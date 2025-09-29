@@ -412,7 +412,7 @@ const handlePhoneBlur = () => {
                     <SelectTrigger className={`text-base ${errors.hearAbout ? "border-red-500" : ""}`}>
                       <SelectValue placeholder="Select an option" />
                     </SelectTrigger>
-                    <SelectContent>
+                    <SelectContent className="max-h-60 overflow-y-auto z-50" position="popper" sideOffset={4}>
                       <SelectItem value="convention">Convention</SelectItem>
                       <SelectItem value="social-media">Social Media</SelectItem>
                       <SelectItem value="friend-family">Friend or Family</SelectItem>
