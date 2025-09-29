@@ -237,7 +237,7 @@ const handlePhoneBlur = () => {
             <div className="absolute inset-0 bg-primary/30 blur-3xl rounded-full transform scale-150 animate-pulse"></div>
             <div className="absolute inset-0 bg-gradient-to-t from-primary to-transparent rounded-lg transform scale-110"></div>
             <img
-              src="/cover.jpg"
+              src="cover.jpg"
               alt="Rebuilt: A Journey Through Pain, Purpose, and Power by Roman Kendzerskyy"
               className="relative z-10 w-72 sm:w-96 lg:w-[28rem] rounded-lg shadow-2xl transform hover:scale-105 transition-all duration-700 mx-auto border-2 border-primary/20"
             />
@@ -314,7 +314,7 @@ const handlePhoneBlur = () => {
               className={`order-2 lg:order-1 ${isVisible ? "animate-slide-in-left animate-delay-400" : "opacity-0"}`}
             >
               <img
-                src="/roman.jpg"
+                src="roman.jpg"
                 alt="Roman - Author of Rebuilt"
                 className="w-full max-w-md mx-auto rounded-lg shadow-xl"
               />
