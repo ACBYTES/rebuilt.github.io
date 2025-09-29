@@ -4,6 +4,8 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  basePath: "/rebuilt.github.io",
+  assetPrefix: "/rebuilt.github.io/",
 }
 
 export default nextConfig
