@@ -435,7 +435,7 @@ const handlePhoneBlur = () => {
                 <div className="text-center space-y-2">
                   <h3 className="font-semibold text-primary">Thank you!</h3>
                   <p className="text-sm text-muted-foreground">
-                    You've been added to the waitlist. We'll notify you when REBUILT is available.
+                    You've been added to the waitlist. You'll be notified when REBUILT is available.
                   </p>
                 </div>
               </Card>
