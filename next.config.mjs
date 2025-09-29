@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',   // replaces next export
+  output: 'export',
   eslint: {
-    ignoreDuringBuilds: true,  // optional: avoids CI failures
+    ignoreDuringBuilds: true,
   },
 }
 
