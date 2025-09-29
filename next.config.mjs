@@ -1,19 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  trailingSlash: true,
+  output: 'export',   // replaces next export
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: true,  // optional: avoids CI failures
   },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  images: {
-    unoptimized: true
-  },
-  experimental: {
-    cache: true
-  }
 }
 
 export default nextConfig
