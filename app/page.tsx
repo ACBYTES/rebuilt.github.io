@@ -409,10 +409,15 @@ const handlePhoneBlur = () => {
                     value={formData.hearAbout}
                     onValueChange={(value) => handleInputChange("hearAbout", value)}
                   >
-                    <SelectTrigger className={`text-base ${errors.hearAbout ? "border-red-500" : ""}`}>
+                    <SelectTrigger className={`text-base w-full ${errors.hearAbout ? "border-red-500" : ""}`}>
                       <SelectValue placeholder="Select an option" />
                     </SelectTrigger>
-                    <SelectContent className="max-h-60 overflow-y-auto z-50" position="popper" sideOffset={4}>
+                    <SelectContent                       className="max-h-60 overflow-y-auto"
+                      position="item-aligned"
+                      side="bottom"
+                      align="start"
+                      avoidCollisions={true}
+                      collisionPadding={8}>
                       <SelectItem value="convention">Convention</SelectItem>
                       <SelectItem value="social-media">Social Media</SelectItem>
                       <SelectItem value="friend-family">Friend or Family</SelectItem>
