@@ -160,6 +160,16 @@
   }
 }
 
+html {
+  max-width: 100%;
+  min-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+}
+
 .from-primary {
     --tw-gradient-from: var(--primary);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
